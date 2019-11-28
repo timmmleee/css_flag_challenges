@@ -186,26 +186,165 @@
 }
 /* Canada */
 #canada {
-  background-color:white;
-}
-#canada .tenthFlagSection{
-  background-color: #DE2910;
+  background-color: white;
+  position: relative;
 }
 #canada .tenthFlagSection:nth-child(1){
+  position: absolute;
+  display: inline-block;
+  top: 14%;
+  left: 29%;
+  height: 78%;
+  width: 50%;
+  background-image: url('./assets/images/canada_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotateZ(26deg);
+}
+
+#canada .tenthFlagSection:nth-child(2){
+  position: absolute;
   height: 100%;
-  width: 25%;
+  width: 23%;
+  left: 0%;
+  background-color: red;
 }
-/* #canada .tenthFlagSection:nth-child(2){
-}
+
 #canada .tenthFlagSection:nth-child(3){
-} */
+  position: absolute;
+  height: 100%;
+  width: 23%;
+  right: 0%;
+  background-color: red;
+}
+
 /* Norway */
+#norway{
+  background-color: red;
+  position: relative;
+}
+#norway
+.verticalWhite,
+.horizontalWhite{
+  position: absolute;
+  background-color: white;
+}
+#norway
+.verticalBlue,
+.horizontalBlue{
+  position: absolute;
+  background-color: #003087;
+}
+#norway .verticalWhite{
+  left: 25%;
+  height: 100%;
+  width: 16%;
+}
+#norway .horizontalWhite{
+  top: 35%;
+  height: 24%;
+  width: 100%;
+}
+#norway .verticalBlue{
+  left: 29%;
+  height: 100%;
+  width: 8%;
+}
+#norway .horizontalBlue{
+  top: 41%;
+  width: 100%;
+  height: 12%;
+}
 
 /* Greece */
+#greece {
+  background-color: white;
+  position: relative;
+}
+#greece .leftTopBox{
+  background-color: #0D5EAF;
+  position: absolute;
+  height: 55.6%;
+  width: 33%;
+}
+#greece
+.whiteVertical,
+.whiteHorizontal{
+  background-color: white;
+  position: absolute;
+}
+
+#greece .whiteVertical{
+  height: 100%;
+  width: 20%;
+  left: 38%;
+}
+#greece .whiteHorizontal{
+  height: 19%;
+  width: 100%;
+  top: 40%;
+}
+#greece
+.outerContainer:nth-child(even),
+.outerContainer:nth-child(odd) {
+  width: 100%;
+  height: 11.1%;
+}
+#greece .outerContainer:nth-child(even){
+  background-color: #0D5EAF;
+}
+#greece .outerContainer:nth-child(odd){
+  background-color: white;
+}
 
 /* Somalia */
+#somalia{
+  background-color: #4189DD;
+  position: relative;
+}
+#somalia .thirteenthFlagSection{
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  top: 13%;
+  font-size: 13vh;
+  color: white;
+}
 
 /* Chile */
+#chile{
+  position: relative;
+}
+#chile .fourteenthFlagSection:nth-child(1){
+  position: absolute;
+  background-color: #0039A6;
+  height: 50%;
+  width: 33%;
+}
+#chile .fourteenthFlagSection .star{
+  position: absolute;
+  text-align: center;
+  font-size: 7vh;
+  height: 100%;
+  width: 100%;
+  top: 6%;
+  color: white;
+}
+
+#chile
+.fourteenthFlagSection:nth-child(2),
+.fourteenthFlagSection:nth-child(3){
+  height: 50%;
+  width: 100%:
+}
+#chile .fourteenthFlagSection:nth-child(2){
+  background-color: white;
+}
+#chile .fourteenthFlagSection:nth-child(3){
+  background-color: #D52B1E;
+}
+
 
 /* Turkey */
 
