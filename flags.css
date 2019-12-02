@@ -177,7 +177,6 @@
   background-color: #DE2910;
   position: absolute;
   border-radius: 50%;
-  margin: auto;
   height: 55%;
   width: 39%;
   top: 50%;
@@ -345,10 +344,112 @@
   background-color: #D52B1E;
 }
 
-
 /* Turkey */
+#turkey{
+  background-color: #E30A17;
+  position: relative;
+}
+#turkey
+.outerCircle,
+.innerCircle{
+  position: absolute;
+  border-radius: 50%;
+}
+
+#turkey .outerCircle{
+  background-color: white;
+  height: 55%;
+  width: 35%;
+  top: 22%;
+  left: 16%;
+}
+#turkey .innerCircle{
+  background-color: #E30A17;
+  height: 81%;
+  width: 82%;
+  top: 10%;
+  left: 20%;
+}
+#turkey .star{
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 50%;
+  font-size: 5vh;
+  transform: rotateZ(-19deg);
+}
 
 /* China */
+#china{
+  background-color: #DE2910;
+  position: relative;
+  /* #FFDE00; */
+}
+#china
+.biggerStar,
+.smallerStar1,
+.smallerStar2,
+.smallerStar3,
+.smallerStar4{
+  position: absolute;
+}
+/* #china
+.smallerStar1,
+.smallerStar2,
+.smallerStar3,
+.smallerStar4{
+  position: absolute;
+  background-color: blue;
+  height:
+  width:
+  text-align: right;
+  font-size: 2vh;
+  color: #FFDE00;
+} */
+
+#china .biggerStar{
+  left: 5%;
+  top: 5%;
+  color: #FFDE00;
+  font-size: 7vh;
+}
+
+#china
+.smallerStar1,
+.smallerStar2,
+.smallerStar3,
+.smallerStar4{
+  position: absolute;
+  background-color: none;
+  height: 10%;
+  text-align: right;
+  font-size: 2vh;
+  color: #FFDE00;
+}
+#china .smallerStar1{
+  transform: rotate(-49deg);
+  width: 24%;
+  top: 18%;
+  left: 9%;
+}
+#china .smallerStar2{
+  transform: rotate(-23deg);
+  width: 27%;
+  top: 22%;
+  left: 9%;
+}
+#china .smallerStar3{
+  transform: rotate(0deg);
+  width: 27%;
+  top: 30%;
+  left: 8%;
+}
+#china .smallerStar4{
+  transform: rotate(23deg);
+  width: 27%;
+  top: 33%;
+  left: 4%;
+}
 
 /* Cuba */
 
