@@ -452,7 +452,27 @@
 }
 
 /* Cuba */
-
+#cuba {
+  position: relative;
+}
+#cuba .seventeenthFlagSection{
+  height: 20%;
+  width: 100%;
+}
+#cuba .seventeenthFlagSection:nth-child(odd){
+  background-color: #002A8F;
+}
+#cuba .seventeenthFlagSection:nth-child(even){
+  background-color: white;
+}
+#cuba .redContainer{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #CF142B;
+  height: 100%;
+  width: 50%;
+}
 /* Western Sahara */
 
 /* Kuwait */
