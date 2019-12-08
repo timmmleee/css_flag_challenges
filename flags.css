@@ -470,6 +470,23 @@
   color: white;
 }
 /* Western Sahara */
+#western_sahara {
+  position: relative;
+}
+.eighteenthFlagSection {
+  height: calc(100%/3);
+  width: 100%;
+}
+
+#western_sahara .eighteenthFlagSection:nth-child(1){
+  background-color: black;
+}
+#western_sahara .eighteenthFlagSection:nth-child(2){
+  background-color: white;
+}
+#western_sahara .eighteenthFlagSection:nth-child(3){
+  background-color: green;
+}
 
 /* Kuwait */
 
